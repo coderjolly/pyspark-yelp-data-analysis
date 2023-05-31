@@ -22,10 +22,17 @@ This project aims to use the pyspark distributed system to analyze various data 
 └── README.md                           <- The top-level README for developers using this project
 ```
 
-<!-- ## Spark Architecture -->
+## Spark Architecture
 
+- Apache Spark Architecture is an open-source framework-based component that are used to process a large amount of unstructured, semi-structured and structured data for analytics. Spark Architecture is considered as an alternative to Hadoop and map-reduce architecture for big data processing. Spark architecture associated with Resilient Distributed Datasets(RDD) and Directed Acyclic Graph (DAG) for data storage and processing. Also, It has four components that are part of the architecture such as spark driver, Executors, Cluster managers, Worker Nodes.
+
+![spark-architecture](figures/spark-architecture.png)
+
+- Spark considers the master/worker process in the architecture and all the task works on the top of the Hadoop distributed file system. Apache spark makes use of Hadoop for data processing and data storage processes. They are considered to be in-memory data processing engine and makes their applications run on Hadoop clusters faster than a memory. Having in-memory processing prevents the failure of disk I/O.
 
 ## Comparitive Study
+
+As spark allows the heterogeneous job to work with the same data so it divides its data into partitions, the size of the split partitions depends on the given data source gifting it the ability to compute things faster. Spark also allows the user to cache the data in memory, which is a great feature for iterative algorithms. Spark also allows the user to cache the data in memory, which is a great feature for iterative algorithms. 
 
 |   Queries   | Pyspark  |    MPI     |  Multi-processing | Multi-threading | Pandas Serial Exec |
 |-------------|----------|------------|-------------------|-----------------|--------------------|
