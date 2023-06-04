@@ -1,4 +1,4 @@
-# Comparative Study of Yelp data-analysis using Pyspark and Python distributed processes
+# Comparative Study of Yelp data-analysis using Pyspark vs Python Distributed Programming 
 
 Any sector that caters to the needs of customers is bound to receive reviews and rating. Therefore, interpretation of these rating or reviews play a vital role. So, a [Yelp dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset) is employed to analyse this. This is a subset of Yelp’s businesses, reviews, and user information. This dataset contains information about firms in eight metropolitan areas in the United States and Canada. This dataset contains five JSON files namely such as business, review, user, tip and checkin. 
 
